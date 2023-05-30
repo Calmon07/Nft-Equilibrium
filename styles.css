@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    max-width: 1440px;   
+    height: 100%;
+    max-height: 750px;
+    border-radius: 1rem;
+}
+
+.container {
+
+    background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium {
+
+    width: 90%;
+    border-radius: 1rem;
+    margin: 5%;
+}
+
+.line {
+
+    background-color: hsl(215, 32%, 27%);
+    display: block;
+    height: 0.5px;
+    margin: 0 6%;
+    margin-bottom: 1rem;
+}
+
+.avatarImage {
+
+    width: 12%;
+    border: solid white;
+    border-radius: 2rem;
+    border-width: 1px;
+    margin-right: 1rem;
+    
+}
+
+.title {
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 40%;
+    margin-top: 1rem;
+}
+
+.title:hover {
+
+    color: aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.description {
+
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-top: 1rem;
+    padding: auto;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.price {
+
+    color: aqua;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.prize {
+
+    color: hsl(215, 51%, 70%);;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 6%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.credits {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    margin-right: 20%;
+    margin-top: 6.5%;
+}
+
+.nameAvatar {
+
+    color: white;
+    margin-left: 3.5px;
+}
+
+.nameAvatar:hover {
+
+    color: aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
